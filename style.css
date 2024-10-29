@@ -1,0 +1,304 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "SoDoSans",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.container{
+    min-width: 100vw;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container-header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+}
+.content-total{
+    box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.navbar-left > *{
+    margin: 20px;
+}
+
+.navbar-left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+.navbar-right a:hover{
+    color: #00752a;
+}
+.navbar-left a:hover{
+    color: #00752a;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10%;
+}
+.navbar-right >*{
+    margin: 20px;
+}
+.navbar-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.join-now, 
+.login{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 5px 20px 5px 20px;
+}
+.navbar-right div button{
+    margin: 5px;
+}
+.login:hover{
+   background-color:rgba(0,0,0,.1);
+}
+.login{
+    background-color:white;
+    color:rgba(0,0,0,.87) ;
+}
+.join-now{
+    background-color:black ;
+    color: white;
+}
+.join-now:hover{
+    background-color: rgba(0, 0, 0, .7);
+    border-color:rgba(0, 0, 0, .7) ;
+}
+.content{
+    display: flex;
+    margin:  40px;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    padding-left:8% ;
+}
+.content img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.content-right,
+.content-left{
+    max-width: 50%;
+    width: 50%;
+}
+#content-1{
+    padding-top: 80px;
+}
+.content-title{
+    color: #1e3932;
+    font-size: 26px;
+    font-weight: 700;
+}
+.content-description{
+    color: #1e3932;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: auto;
+    padding: 30px 80px 30px 80px;
+}
+.content-button{
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    color: #1e3932;
+    font-size: 16px;
+}
+.content-button:hover{
+   background-color:hsla(164,31%,17%,0.1);
+}
+#content-2{
+    background-color: #fffafa;
+    padding-top: 100px;
+    width: 50%;
+}
+#content-2 .content-button{
+    background-color:#fffafa;
+}
+#content-2 .content-button:hover{
+    background-color: hsl(164deg 31% 17% / 10%);
+}
+#content-3  .content-title,.content-description{
+    color: #451a00;
+}
+#content-3 .content-button{
+    background-color: #00754a;
+    border-color: #00752a;
+    color: white;
+}
+#content-3 .content-button:hover{
+    background-color: hsla(158,100%,23%,0.9);
+    border-color: hsla(158,100%,23%,0.9);
+}
+#content-4{
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    width: 50%;
+}
+#content-4 .content-description{
+    color: #1e3932;
+}
+#content-4 .content-button{
+    background-color: #f9f9f9;
+}
+#content-4 .content-button:hover{
+    background-color: rgba(0,0,0,.1);
+}
+#content-5{
+    background-color: #fffafa;
+    padding-top: 100px;
+    width: 50%;
+}
+#content-5 .content-title,.content-description{
+    color: #451a00;
+}
+#content-5 .content-button{
+    color: white;
+    background-color: hsla(158,100%,23%,1);
+    border-color: hsla(158,100%,23%,1);
+}
+#content-5 .content-button:hover{
+    background-color: hsla(158,100%,23%,0.9);
+    border-color: hsla(158,100%,23%,0.9);
+}
+.content-6{
+    width: 30%;
+    position: relative;
+    left: 30%;
+    padding-top: 20px; 
+    text-align: center;
+}
+.content-6 div{
+    font-size: 16px;
+    font-weight:500;
+}
+.content-6 .content-header,.content-body,.content-footer{
+    padding-top: 80px;
+    color: #000000;
+}
+.content-6 a{
+    color: #000000;
+}
+.content-6 a:hover{
+    text-decoration:white;
+}
+.about-starbucks{
+    display: flex;
+    justify-items:flex-start;
+    align-items: flex-start;
+    text-align:left;
+    font-size: 20px;
+    color: rgba(0,0,0,.87);
+    font-weight: 500;
+    min-width: 1024px;
+    width: 80%;
+    padding-left:6% ;
+    margin: 40px;
+    box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 10px 5px -10px rgba(0,0,0,0.75);
+}
+.about-starbucks a{
+    text-decoration: none;
+    color: rgba(0, 0, 0,0.58);
+    font-size: 16px;
+    font-weight: 600;
+}
+.about-starbucks a:hover{
+    color: rgba(0,0,0,.87);
+}
+.about-me,
+.carrers,
+.social-impact,
+.for-businesses,
+.order-pickup >*{
+    margin: 20px;
+}
+.about-starbucks div{
+    padding-top: 10px;
+}
+.brand-click{
+    padding-left: 9%;
+    padding-bottom: 10%;
+}
+.brand-click > *{
+    padding: 5px;
+}
+.brand-click a{
+    color: white;
+}
+.horizontal-menu{
+    list-style-type: none;
+    padding: 10px;
+    margin-top: -10%;
+    display: flex;
+    padding-left: 8%;
+    height: 100px;
+    justify-items: center;
+    align-items: center;
+}
+.horizontal-menu li{    
+    padding: 0 20px;
+    position: relative;
+    text-align: center;
+}
+.horizontal-menu li:not(:last-child)::after{
+    content: "|";
+    position: absolute;
+    right: 0;
+    color:rgba(0, 0, 0,0.58)
+}
+.horizontal-menu a{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.horizontal-menu a:hover{
+    text-decoration:underline;
+}
+.translate-english{
+    color: hsla(158,100%,23%,1);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 9%;
+    margin-top: -1%;
+}
+.starbucks-corporation{
+    color: rgba(0, 0, 0,0.58);
+    padding-left: 9%;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+
+
+
+
+
+
+
+
